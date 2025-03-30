@@ -1,0 +1,32 @@
+{
+  "name": "btc-price-mcp",
+  "version": "1.0.0",
+  "description": "An MCP server to fetch current Bitcoin prices for Claude",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "btc-price-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "bitcoin",
+    "cryptocurrency",
+    "mcp",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
