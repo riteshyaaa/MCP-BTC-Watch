@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/riteshyaaa-mcp-btc-watch-badge.png)](https://mseep.ai/app/riteshyaaa-mcp-btc-watch)
+
 # Bitcoin Price MCP Server
 
 A Model Context Protocol (MCP) server that provides Claude AI with real-time access to Bitcoin price data. This server allows Claude to fetch the current price of Bitcoin and related market information.
